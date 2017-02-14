@@ -1,0 +1,62 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "Sake/0.2.2": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Sake/0.2.2": {
+      "sha512": "EManUakIvFiWWobI45klgBKMSILD9wt5RoR8rIi0M8Z+xsKZI2ePbU3rpX7CwHBFe7FTrLDWCSqbmhGICydDXw==",
+      "type": "package",
+      "path": "Sake/0.2.2",
+      "files": [
+        "Sake.0.2.2.nupkg.sha512",
+        "Sake.nuspec",
+        "tools/Autofac.Configuration.dll",
+        "tools/Autofac.dll",
+        "tools/Init-BuildCmd.txt",
+        "tools/Init-BuildSh.txt",
+        "tools/Init-SakefileShade.txt",
+        "tools/NDesk.Options.dll",
+        "tools/Sake.Engine.dll",
+        "tools/Sake.exe",
+        "tools/Sake.exe.config",
+        "tools/Sakefile.shade",
+        "tools/Shared/Environment.shade",
+        "tools/Shared/Files.shade",
+        "tools/Shared/PathResolver.shade",
+        "tools/Shared/Regex.shade",
+        "tools/Shared/_assemblyinfo.shade",
+        "tools/Shared/_build.shade",
+        "tools/Shared/_copy.shade",
+        "tools/Shared/_directory.shade",
+        "tools/Shared/_exec-clr.shade",
+        "tools/Shared/_exec.shade",
+        "tools/Shared/_log.shade",
+        "tools/Shared/_nuget-install.shade",
+        "tools/Shared/_nuget-pack.shade",
+        "tools/Shared/_nuget-push.shade",
+        "tools/Shared/_nunit.shade",
+        "tools/Shared/_stylecop.shade",
+        "tools/Shared/_update-file.shade",
+        "tools/Shared/_use-standard-goals.shade",
+        "tools/Shared/_use-standard-lifecycle.shade",
+        "tools/Shared/_use-teamcity.shade",
+        "tools/Shared/_xunit.shade",
+        "tools/Spark.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Sake >= 0.2.2"
+    ],
+    ".NETCoreApp,Version=v1.0": []
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}

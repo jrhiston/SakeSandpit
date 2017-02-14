@@ -1,0 +1,8 @@
+{
+    "frameworks": {
+        "netcoreapp1.0": {}
+    },
+    "dependencies": {
+        "Sake": "0.2.2"
+    }
+}

@@ -1,0 +1,30 @@
+use import="Console"
+use import="Help"
+
+default BASE_DIR='${Directory.GetCurrentDirectory()}'
+default TARGET_DIR='${Path.Combine(BASE_DIR, "artifacts")}'
+
+#purenet-clean target="clean" description="Build|Remove artifacts of a previous build"
+  @{
+      Console.WriteLine("Cleaning");
+      if (Directory.Exists(TARGET_DIR))
+      {
+          var directory = new DirectoryInfo(TARGET_DIR);
+          directory.Attributes &= ~FileAttributes.ReadOnly;
+
+          foreach (var info in directory.GetFileSystemInfos("*", SearchOption.AllDirectories))
+          {
+              info.Attributes &= ~FileAttributes.ReadOnly;
+          }
+
+          directory.Delete(true);
+        }
+    }
+
+#purenet-build target="compile" description="Main build"
+
+
+#help description="Help|Displays a list of build commands"
+   @{
+      WriteHelp();
+   }
